@@ -1,0 +1,59 @@
+﻿@model Web_FIA44_CRUD_einer_1_zu_N.ViewModels.IndexViewModel
+
+@{
+    ViewData["Title"] = "Update";
+}
+
+
+<div class="container justify-content-center">
+<h3 class="text-center p-3 mb-2 bg-secondary text-info">@Model.Article.ArticleName editieren</h3>
+<hr />
+<div class="row bg-secondary">
+    <div class="d-flex justify-content-center">
+        <form asp-action="Update">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                    <label asp-for="Article.Aid" class="control-label text-info"></label>
+				<input asp-for="Article.Aid" readonly class="form-control" />
+                <span asp-validation-for="Article.Aid" class="text-danger"></span>
+                </div>
+				
+            <div class="form-group">
+                <label asp-for="Article.ArticleName" class="control-label text-info"></label>
+                <input asp-for="Article.ArticleName" class="form-control" />
+                <span asp-validation-for="Article.ArticleName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Article.Price" class="control-label text-info"></label>
+                <input asp-for="Article.Price" class="form-control" />
+                <span asp-validation-for="Article.Price" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Article.Description" class="control-label text-info"></label>
+                <input asp-for="Article.Description" class="form-control" />
+                <span asp-validation-for="Article.Description" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="DropDownValue">Kategorie</label>
+                <select asp-for="DropDownValue" asp-items="Model.DropDownList" class="form-control"></select>
+            </div>
+            <br />
+            <div class="d-flex justify-content-center">
+                <input type="submit" value="Änderungen speichern" class="btn btn-outline-info" />
+            </div>
+            <br />
+        </form>
+    </div>
+    <br />
+</div>
+
+    <div class="d-flex justify-content-center">
+    <a asp-action="AIndex" class="btn btn-info">Zurück zur Liste</a>
+</div>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,56 @@
+﻿@using Web_FIA44_CRUD_einer_1_zu_N.Models
+@using static Web_FIA44_CRUD_einer_1_zu_N.Models.Article
+
+
+
+
+
+
+<div class="card text-center bg-body-secondary ">
+    <h4 class="text-center p-3 mb-2 bg-secondary text-info">@Model.ArticleName</h4><br />
+
+	
+
+<dt class=" col align-self-center text-info text-decoration-underline ">
+    Artikel-ID
+</dt>
+<dd class=" col align-self-center text-dark">
+    @Model.Aid
+</dd>
+<dt class=" col align-self-center text-info text-decoration-underline">
+    Artikelname
+</dt>
+<dd class=" col align-self-center text-dark">
+    @Model.ArticleName
+</dd>
+<dt class=" col align-self-center text-info text-decoration-underline">
+    Preis
+</dt>
+<dd class=" col align-self-center text-dark">
+    @Model.Price.ToString("c")
+</dd>
+<dt class=" col align-self-center text-info text-decoration-underline">
+    Bemerkung
+</dt>
+<dd class=" col align-self-center text-dark">
+    @Model.Description
+</dd>
+<dt class=" col align-self-center text-info text-decoration-underline">
+    Kategorie
+</dt>
+<dd class=" col align-self-center text-dark">
+    @Model.Category.CatName 
+</dd>
+
+<hr />
+<div>
+    <div class="d-flex justify-content-center ">
+        <a class="btn btn-outline-info align-content-between" href="/Admin/update?Aid=@Model.Aid">Editieren</a>&nbsp;&nbsp;
+        <a class="btn btn-outline-info align-content-between" href="/Admin/delete?Aid=@Model.Aid" onclick="return confirm('Warnung\n @Model.ArticleName wirklich löschen?')">Löschen</a>
+    </div>
+    <hr />
+    <div class="d-flex justify-content-center ">
+        <a class="btn btn-outline-info align-content-center" asp-action="AIndex">Zurück zur Übersicht</a>
+    </div>
+	</div>
+

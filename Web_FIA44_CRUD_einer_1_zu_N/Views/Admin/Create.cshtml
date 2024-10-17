@@ -1,0 +1,51 @@
+﻿@model Web_FIA44_CRUD_einer_1_zu_N.ViewModels.IndexViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Artikel hinzufügen</h1>
+
+<h4>Neuen Artikel erstellen</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <div class="form-group">
+                <label asp-for="Article.ArticleName"></label>
+                <input asp-for="Article.ArticleName" class="form-control" />
+                <span asp-validation-for="Article.ArticleName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Article.Price"></label>
+                <input asp-for="Article.Price" class="form-control" />
+                <span asp-validation-for="Article.Price" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Article.Description"></label>
+                <input asp-for="Article.Description" class="form-control" />
+                <span asp-validation-for="Article.Description" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="DropDownValue">Category</label>
+                <select asp-for="DropDownValue" asp-items="Model.DropDownList" class="form-control"></select>
+                @* <span asp-validation-for="DropDownValue" class="text-danger"></span> *@
+            </div>
+
+            <button type="submit" class="btn btn-primary">Absenden</button>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="AIndex">Zurück zur Übersicht</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

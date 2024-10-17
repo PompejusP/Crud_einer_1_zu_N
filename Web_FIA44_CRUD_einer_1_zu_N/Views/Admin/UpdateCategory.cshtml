@@ -1,0 +1,38 @@
+﻿@model Web_FIA44_CRUD_einer_1_zu_N.Models.Category
+
+@{
+    ViewData["Title"] = "UpdateCategory";
+}
+
+<h1>UpdateCategory</h1>
+
+<h4>Category</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="UpdateCategory">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Cid" class="control-label"></label>
+                <input asp-for="Cid" readonly class="form-control" />
+                <span asp-validation-for="Cid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CatName" class="control-label"></label>
+                <input asp-for="CatName" value="@Model.CatName" class="form-control" />
+                <span asp-validation-for="CatName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="CIndex">zurück zur Kategorieliste</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Web_FIA44_CRUD_einer_1_zu_N.props" />
+</Project>

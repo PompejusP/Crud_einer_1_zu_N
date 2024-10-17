@@ -1,0 +1,38 @@
+﻿@model List<Category>
+@using Web_FIA44_CRUD_einer_1_zu_N.Models
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+	ViewData["Title"] = "CIndex";
+}
+@{
+}
+<h1 class="text-center p-3 mb-2 bg-secondary text-info">🔍 Kategorieverwaltung 🔎</h1>
+<p class="d-flex justify-content-center"><a class="btn btn-outline-info align-content-center" href="/Admin/CreateCategory">Kategorie hinzufügen</a></p>
+
+
+
+<table class="table table-secondary table-hover table-striped-columns text-center ">
+
+    <tr class=" table">
+        <th class=" text-bg-info ">Kategorie Id</th>
+        <th class=" text-bg-info ">Kategoriename</th>
+        <th class=" text-bg-info ">&nbsp;</th>
+    </tr>
+
+    @foreach (Category category in Model )
+    {
+        <tr>
+            <th>@category.Cid</th>
+            <th>@category.CatName</th>
+            
+            <td>
+                <a class="link-body-emphasis link-underline-opacity-0" asp-action="DeleteCategory" asp-route-Cid="@category.Cid" onclick="return confirm('Warnung\n @category.CatName wirklich löschen?')">🗑️</a>
+                <a class="link-body-emphasis link-underline-opacity-0" asp-action="UpdateCategory" asp-route-Cid="@category.Cid" >🧹</a>
+                <a class="link-body-emphasis link-underline-opacity-0" asp-action="Detailscategory" asp-route-Cid="@category.Cid">🔍</a>
+            </td>
+        </tr>
+
+
+    }
+</table>
+<div>

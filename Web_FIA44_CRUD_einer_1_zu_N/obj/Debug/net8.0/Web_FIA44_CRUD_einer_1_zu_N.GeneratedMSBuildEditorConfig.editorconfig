@@ -1,0 +1,87 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Web_FIA44_CRUD_einer_1_zu_N
+build_property.RootNamespace = Web_FIA44_CRUD_einer_1_zu_N
+build_property.ProjectDir = D:\Programmieren\Web_FIA44_CRUD_einer_1_zu_N\Web_FIA44_CRUD_einer_1_zu_N\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Programmieren\Web_FIA44_CRUD_einer_1_zu_N\Web_FIA44_CRUD_einer_1_zu_N
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Programmieren/Web_FIA44_CRUD_einer_1_zu_N/Web_FIA44_CRUD_einer_1_zu_N/Views/Admin/AIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQUluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programmieren/Web_FIA44_CRUD_einer_1_zu_N/Web_FIA44_CRUD_einer_1_zu_N/Views/Admin/CIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programmieren/Web_FIA44_CRUD_einer_1_zu_N/Web_FIA44_CRUD_einer_1_zu_N/Views/Admin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programmieren/Web_FIA44_CRUD_einer_1_zu_N/Web_FIA44_CRUD_einer_1_zu_N/Views/Admin/CreateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programmieren/Web_FIA44_CRUD_einer_1_zu_N/Web_FIA44_CRUD_einer_1_zu_N/Views/Admin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programmieren/Web_FIA44_CRUD_einer_1_zu_N/Web_FIA44_CRUD_einer_1_zu_N/Views/Admin/DetailsCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGV0YWlsc0NhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programmieren/Web_FIA44_CRUD_einer_1_zu_N/Web_FIA44_CRUD_einer_1_zu_N/Views/Admin/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programmieren/Web_FIA44_CRUD_einer_1_zu_N/Web_FIA44_CRUD_einer_1_zu_N/Views/Admin/UpdateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programmieren/Web_FIA44_CRUD_einer_1_zu_N/Web_FIA44_CRUD_einer_1_zu_N/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programmieren/Web_FIA44_CRUD_einer_1_zu_N/Web_FIA44_CRUD_einer_1_zu_N/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programmieren/Web_FIA44_CRUD_einer_1_zu_N/Web_FIA44_CRUD_einer_1_zu_N/Views/Shared/_ValidationScriptPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programmieren/Web_FIA44_CRUD_einer_1_zu_N/Web_FIA44_CRUD_einer_1_zu_N/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programmieren/Web_FIA44_CRUD_einer_1_zu_N/Web_FIA44_CRUD_einer_1_zu_N/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programmieren/Web_FIA44_CRUD_einer_1_zu_N/Web_FIA44_CRUD_einer_1_zu_N/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programmieren/Web_FIA44_CRUD_einer_1_zu_N/Web_FIA44_CRUD_einer_1_zu_N/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-cvaut2h0wu

@@ -1,0 +1,65 @@
+﻿
+@using Web_FIA44_CRUD_einer_1_zu_N.ViewModels
+
+@model Web_FIA44_CRUD_einer_1_zu_N.ViewModels.IndexViewModel
+
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+	ViewData["Title"] = "Admin";
+
+}
+<h1>Admin Bereich</h1>
+<p>Willkommen im Admin Bereich&nbsp;&nbsp;&nbsp;<a asp-action="Create" class="btn btn-outline-info align-content-lg-end">Artikel hinzufügen</a></p>
+<div>
+	<form asp-action="AIndex" asp-controller="Admin" method="post">
+        <br />
+    <div>
+        
+        <select asp-for="@Model.DropDownValue" asp-items="@Model.DropDownList" class="btn btn-secondary dropdown-toggle" onchange="this.form.submit()">
+			<option value="">Kategorie auswählen</option>
+			</select>
+
+            <a asp-action="CIndex" asp-controller="Admin" class="btn btn-primary">Kategorieverwaltung</a>
+
+        </div>
+    
+	</form>
+	<br />
+</div>
+@if (Model.Articles != null && Model.Articles.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Artikel ID</th>
+                <th>Artikelname</th>
+                <th>Preis</th>
+                <th>Beschreibung</th>
+                <th>Kategorie</th>
+                <th>&nbsp;</th>
+            </tr>
+        </thead>
+            <tbody>
+                @foreach (var article in Model.Articles)
+                {
+                    <tr>
+                        <td>@article.Aid</td>
+                        <td>@article.ArticleName</td>
+                        <td>@article.Price.ToString("c")</td>
+                        <td>@article.Description</td>
+                        <td>@article.Category.CatName</td>
+                        <td>
+                            <a asp-action="Update" asp-route-Aid="@article.Aid" class="link-body-emphasis link-underline-opacity-0">🧹</a> |
+                            <a asp-action="Details" asp-route-Aid="@article.Aid" class="link-body-emphasis link-underline-opacity-0">🔍</a> |
+                            <a asp-action="Delete" asp-route-Aid="@article.Aid" class="link-body-emphasis link-underline-opacity-0" onclick="return confirm('Warnung\n @article.ArticleName wirklich löschen?')">🗑️</a>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+    </table>
+
+
+}

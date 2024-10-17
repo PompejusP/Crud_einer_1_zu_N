@@ -1,0 +1,35 @@
+﻿@model Web_FIA44_CRUD_einer_1_zu_N.Models.Category
+
+@{
+    ViewData["Title"] = "DetailsCategory";
+}
+
+<h1 class="text-center p-3 mb-2 bg-secondary text-info">Kategorie Details</h1>
+
+<div class="card text-center bg-body-secondary">
+    <h4>Details</h4>
+    <hr />
+    <dl class="container justify-content-center">
+        <dt class=" col align-self-center text-info text-decoration-underline ">
+            @Html.DisplayNameFor(model => model.Cid)
+        </dt>
+        <dd class=" col align-self-center text-dark">
+            @Html.DisplayFor(model => model.Cid)
+        </dd>
+       
+        <dt class=" col align-self-center text-info text-decoration-underline ">
+            @Html.DisplayNameFor(model => model.CatName)
+        </dt>
+        <dd class=" col align-self-center text-dark">
+            @Html.DisplayFor(model => model.CatName)
+        </dd>
+    </dl>
+</div>
+<div class="d-flex justify-content-center">
+     <a class="btn btn-outline-info " asp-action="UpdateCategory" asp-route-Cid="@Model.Cid">Kategorie ändern</a>&nbsp;&nbsp;
+     <a class="btn btn-outline-info " asp-action="DeleteCategory" asp-route-Cid="@Model.Cid" onclick="return confirm('Warnung\n @Model.CatName wirklich löschen?')">Kategorie löschen</a>
+        
+</div>
+<div class="d-flex justify-content-center">
+<a asp-action="CIndex">Zurück zu Kategorieliste</a>
+</div>
