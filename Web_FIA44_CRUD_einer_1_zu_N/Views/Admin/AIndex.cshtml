@@ -10,8 +10,8 @@
 	ViewData["Title"] = "Admin";
 
 }
-<h1>Admin Bereich</h1>
-<p>Willkommen im Admin Bereich&nbsp;&nbsp;&nbsp;<a asp-action="Create" class="btn btn-outline-info align-content-lg-end">Artikel hinzufügen</a></p>
+<h1>Willkommen im Admin Bereich</h1>
+<p><a asp-action="Create" class="btn btn-outline-secondary align-content-lg-end">Artikel hinzufügen</a></p>
 <div>
 	<form asp-action="AIndex" asp-controller="Admin" method="post">
         <br />
@@ -19,9 +19,9 @@
         
         <select asp-for="@Model.DropDownValue" asp-items="@Model.DropDownList" class="btn btn-secondary dropdown-toggle" onchange="this.form.submit()">
 			<option value="">Kategorie auswählen</option>
-			</select>
+			</select>&nbsp;&nbsp;
 
-            <a asp-action="CIndex" asp-controller="Admin" class="btn btn-primary">Kategorieverwaltung</a>
+            <a asp-action="CIndex" asp-controller="Admin" class="btn btn-secondary">Kategorieverwaltung</a>
 
         </div>
     
@@ -30,7 +30,7 @@
 </div>
 @if (Model.Articles != null && Model.Articles.Any())
 {
-    <table class="table">
+    <table class="table table-hover">
         <thead>
             <tr>
                 <th>Artikel ID</th>
@@ -62,4 +62,8 @@
     </table>
 
 
+}
+else
+{
+	<p class="h3 text-secondary">Keine Artikel vorhanden</p>
 }

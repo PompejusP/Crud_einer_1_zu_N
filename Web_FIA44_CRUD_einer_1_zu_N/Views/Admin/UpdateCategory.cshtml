@@ -4,33 +4,35 @@
     ViewData["Title"] = "UpdateCategory";
 }
 
-<h1>UpdateCategory</h1>
 
-<h4>Category</h4>
+
+<h4 class="text-center p-3 mb-2 bg-secondary text-info">@Model.CatName ändern</h4>
 <hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="d-flex justify-content-center">
         <form asp-action="UpdateCategory">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Cid" class="control-label"></label>
+                <label asp-for="Cid" class="control-label text-secondary"></label>
                 <input asp-for="Cid" readonly class="form-control" />
                 <span asp-validation-for="Cid" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="CatName" class="control-label"></label>
+                <label asp-for="CatName" class="control-label text-secondary"></label>
                 <input asp-for="CatName" value="@Model.CatName" class="form-control" />
                 <span asp-validation-for="CatName" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+				<input type="submit" value="Kategorie ändern" class="btn btn-outline-info" />
+                <a class="btn btn-outline-info" asp-action="CIndex">zurück zur Kategorieliste</a>
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="CIndex">zurück zur Kategorieliste</a>
+    
 </div>
 
 @section Scripts {

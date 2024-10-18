@@ -27,9 +27,9 @@
 </div>
 <div class="d-flex justify-content-center">
      <a class="btn btn-outline-info " asp-action="UpdateCategory" asp-route-Cid="@Model.Cid">Kategorie ändern</a>&nbsp;&nbsp;
-     <a class="btn btn-outline-info " asp-action="DeleteCategory" asp-route-Cid="@Model.Cid" onclick="return confirm('Warnung\n @Model.CatName wirklich löschen?')">Kategorie löschen</a>
-        
+     <a class="btn btn-outline-danger " asp-action="DeleteCategory" asp-route-Cid="@Model.Cid" onclick="return confirm('Warnung\n @Model.CatName wirklich löschen?')">Kategorie löschen</a>  
 </div>
+<br />
 <div class="d-flex justify-content-center">
-<a asp-action="CIndex">Zurück zu Kategorieliste</a>
+<a class="btn btn-outline-secondary" asp-action="CIndex">Zurück zu Kategorieliste</a>
 </div>

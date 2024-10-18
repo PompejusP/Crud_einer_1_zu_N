@@ -6,24 +6,24 @@
 }
 @{
 }
-<h1 class="text-center p-3 mb-2 bg-secondary text-info">🔍 Kategorieverwaltung 🔎</h1>
-<p class="d-flex justify-content-center"><a class="btn btn-outline-info align-content-center" href="/Admin/CreateCategory">Kategorie hinzufügen</a></p>
+<h1 class="text-center p-3 mb-2 bg-secondary text-info"> Kategorieverwaltung </h1>
+<p class="d-flex justify-content-center"><a class="btn btn-outline-secondary align-content-center" href="/Admin/CreateCategory">Kategorie hinzufügen</a></p>
 
 
 
-<table class="table table-secondary table-hover table-striped-columns text-center ">
+<table class="table  table-hover  text-center ">
 
-    <tr class=" table">
-        <th class=" text-bg-info ">Kategorie Id</th>
-        <th class=" text-bg-info ">Kategoriename</th>
-        <th class=" text-bg-info ">&nbsp;</th>
+    <tr class=" table ">
+        <th >Kategorie Id</th>
+        <th >Kategoriename</th>
+        <th >&nbsp;</th>
     </tr>
 
     @foreach (Category category in Model )
     {
         <tr>
-            <th>@category.Cid</th>
-            <th>@category.CatName</th>
+            <td>@category.Cid</td>
+            <td>@category.CatName</td>
             
             <td>
                 <a class="link-body-emphasis link-underline-opacity-0" asp-action="DeleteCategory" asp-route-Cid="@category.Cid" onclick="return confirm('Warnung\n @category.CatName wirklich löschen?')">🗑️</a>

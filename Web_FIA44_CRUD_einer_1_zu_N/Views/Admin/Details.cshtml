@@ -45,12 +45,12 @@
 <hr />
 <div>
     <div class="d-flex justify-content-center ">
-        <a class="btn btn-outline-info align-content-between" href="/Admin/update?Aid=@Model.Aid">Editieren</a>&nbsp;&nbsp;
-        <a class="btn btn-outline-info align-content-between" href="/Admin/delete?Aid=@Model.Aid" onclick="return confirm('Warnung\n @Model.ArticleName wirklich löschen?')">Löschen</a>
+        <a class="btn btn-outline-secondary align-content-between" href="/Admin/update?Aid=@Model.Aid">Editieren</a>&nbsp;&nbsp;
+        <a class="btn btn-outline-danger align-content-between" href="/Admin/delete?Aid=@Model.Aid" onclick="return confirm('Warnung\n @Model.ArticleName wirklich löschen?')">Löschen</a>
     </div>
     <hr />
     <div class="d-flex justify-content-center ">
-        <a class="btn btn-outline-info align-content-center" asp-action="AIndex">Zurück zur Übersicht</a>
+        <a class="btn btn-outline-secondary align-content-center" asp-action="AIndex">Zurück zur Übersicht</a>
     </div>
 	</div>
 

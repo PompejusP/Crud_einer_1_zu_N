@@ -4,12 +4,12 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Artikel hinzufügen</h1>
 
-<h4>Neuen Artikel erstellen</h4>
+
+<h4 class="text-center p-3 mb-2 bg-secondary text-info">Neuen Artikel erstellen</h4>
 <hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="d-flex justify-content-center">
         <form asp-action="Create" method="post">
             @Html.ValidationSummary(true, "", new { @class = "text-danger" })
 
@@ -30,20 +30,25 @@
                 <input asp-for="Article.Description" class="form-control" />
                 <span asp-validation-for="Article.Description" class="text-danger"></span>
             </div>
-
-            <div class="form-group">
-                <label asp-for="DropDownValue">Category</label>
-                <select asp-for="DropDownValue" asp-items="Model.DropDownList" class="form-control"></select>
+            <br />
+            <div class="dropdown">
+                @* <label asp-for="DropDownValue"></label> *@
+                <select asp-for="DropDownValue" asp-items="Model.DropDownList" class="btn btn-secondary dropdown-toggle">
+					<option value="">Kategorie auswählen</option>
+				</select>
                 @* <span asp-validation-for="DropDownValue" class="text-danger"></span> *@
             </div>
+            <br />
 
-            <button type="submit" class="btn btn-primary">Absenden</button>
+
+			<button type="submit" class="btn btn-primary">Artikel hinzufügen</button>
+            <a class="btn btn-outline-secondary" asp-action="AIndex">Zurück zur Übersicht</a>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="AIndex">Zurück zur Übersicht</a>
+    
 </div>
 
 @section Scripts {
