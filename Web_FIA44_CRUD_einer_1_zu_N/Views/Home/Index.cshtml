@@ -20,7 +20,9 @@
 
 	</form>
 </div>
-
+@if (Model.Articles != null && Model.Articles.Any())
+{
+	
 <div class="row">
 	@foreach (Article article in Model.Articles)
 	{
@@ -42,4 +44,10 @@
 		</div>
 		
 	}
+	
 </div>
+}
+else
+{
+	<p class="h3 text-secondary">Keine Artikel vorhanden</p>
+}

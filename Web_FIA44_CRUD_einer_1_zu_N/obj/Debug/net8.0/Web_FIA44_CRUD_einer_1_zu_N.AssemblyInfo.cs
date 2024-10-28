@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Web_FIA44_CRUD_einer_1_zu_N")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58102bc47cf14efcf115c3605b133f11e960af9f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0789857ee80bf08c13199af1867d32f4db75071a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Web_FIA44_CRUD_einer_1_zu_N")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Web_FIA44_CRUD_einer_1_zu_N")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

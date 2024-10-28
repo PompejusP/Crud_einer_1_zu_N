@@ -7,7 +7,7 @@
 <h1>Detail Ansicht</h1>
 
 <div>
-    <h4>@Model.ArticleName</h4>
+    <h4 class="text-center p-3 mb-2 bg-secondary text-info">@Model.ArticleName</h4>
     <hr />
     <dl class="card text-center text-info bg">
         <dt class="col align-self-center text-info text-decoration-underline">
@@ -48,6 +48,6 @@
         </dd>
     </dl>
 </div>
-<div>
-    <a asp-action="Index">Zurück zur Liste</a>
+<div class="d-flex justify-content-center ">
+    <a class="btn btn-outline-secondary align-content-center" asp-action="Index">Zurück zur Übersicht</a>
 </div>

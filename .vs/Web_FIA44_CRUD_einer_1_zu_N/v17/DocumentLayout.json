@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\Programmieren\\Web_FIA44_CRUD_einer_1_zu_N\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{268D3F2B-22A0-48D8-BA94-81B428BC7A19}|Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N.csproj|d:\\programmieren\\web_fia44_crud_einer_1_zu_n\\web_fia44_crud_einer_1_zu_n\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{268D3F2B-22A0-48D8-BA94-81B428BC7A19}|Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N.csproj|solutionrelative:web_fia44_crud_einer_1_zu_n\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{268D3F2B-22A0-48D8-BA94-81B428BC7A19}|Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N.csproj|d:\\programmieren\\web_fia44_crud_einer_1_zu_n\\web_fia44_crud_einer_1_zu_n\\views\\admin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{268D3F2B-22A0-48D8-BA94-81B428BC7A19}|Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N.csproj|solutionrelative:web_fia44_crud_einer_1_zu_n\\views\\admin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268D3F2B-22A0-48D8-BA94-81B428BC7A19}|Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N.csproj|d:\\programmieren\\web_fia44_crud_einer_1_zu_n\\web_fia44_crud_einer_1_zu_n\\views\\admin\\aindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{268D3F2B-22A0-48D8-BA94-81B428BC7A19}|Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N.csproj|solutionrelative:web_fia44_crud_einer_1_zu_n\\views\\admin\\aindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268D3F2B-22A0-48D8-BA94-81B428BC7A19}|Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N.csproj|d:\\programmieren\\web_fia44_crud_einer_1_zu_n\\web_fia44_crud_einer_1_zu_n\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{268D3F2B-22A0-48D8-BA94-81B428BC7A19}|Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N.csproj|solutionrelative:web_fia44_crud_einer_1_zu_n\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,8 +25,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 158,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 178,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,15 +42,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\Programmieren\\Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N\\Views\\Admin\\Details.cshtml",
               "RelativeDocumentMoniker": "Web_FIA44_CRUD_einer_1_zu_N\\Views\\Admin\\Details.cshtml",
               "ToolTip": "D:\\Programmieren\\Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N\\Views\\Admin\\Details.cshtml",
               "RelativeToolTip": "Web_FIA44_CRUD_einer_1_zu_N\\Views\\Admin\\Details.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADUAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-18T07:54:10.068Z",
+              "WhenOpened": "2024-10-28T12:14:25.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Programmieren\\Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "Web_FIA44_CRUD_einer_1_zu_N\\Views\\Home\\Details.cshtml",
+              "ToolTip": "D:\\Programmieren\\Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "Web_FIA44_CRUD_einer_1_zu_N\\Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T12:14:11.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Programmieren\\Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Web_FIA44_CRUD_einer_1_zu_N\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Programmieren\\Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Web_FIA44_CRUD_einer_1_zu_N\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T12:10:33.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AIndex.cshtml",
+              "DocumentMoniker": "D:\\Programmieren\\Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N\\Views\\Admin\\AIndex.cshtml",
+              "RelativeDocumentMoniker": "Web_FIA44_CRUD_einer_1_zu_N\\Views\\Admin\\AIndex.cshtml",
+              "ToolTip": "D:\\Programmieren\\Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N\\Views\\Admin\\AIndex.cshtml",
+              "RelativeToolTip": "Web_FIA44_CRUD_einer_1_zu_N\\Views\\Admin\\AIndex.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAADwv0MAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T12:10:16.22Z",
               "EditorCaption": ""
             }
           ]
