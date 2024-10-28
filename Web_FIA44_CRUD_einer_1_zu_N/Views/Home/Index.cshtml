@@ -7,19 +7,20 @@
 		ViewData["Title"] = "Home";
 
 }
-<h1 class="text-center p-3 mb-2 bg-secondary">Artikelverwaltung mit Kategorien</h1>
+<h1 class="text-center p-3 mb-2 bg-secondary text-info">Artikelverwaltung mit Kategorien</h1>
 <div>
 	<form asp-action="Index" asp-controller="Home" method="post">
 		<div>
 
-			<select asp-for="@Model.DropDownValue" asp-items="@Model.DropDownList" class="btn btn-secondary dropdown-toggle" onchange="this.form.submit()">
+			<select asp-for="@Model.DropDownValue" asp-items="@Model.DropDownList" class="btn btn-secondary  dropdown-toggle" onchange="this.form.submit()">
 				<option value="">Kategorie auswählen</option>
 			</select>
-			@* @Html.DropDownListFor(m => m.SelectedCategory, new SelectList(Model.Categories, "Cid", "CatName"), "Select Category", new { @class = "form-control" }) *@
+			
 		</div>
 
 	</form>
 </div>
+<br />
 @if (Model.Articles != null && Model.Articles.Any())
 {
 	
@@ -28,16 +29,15 @@
 	{
 		
 		
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-				<h5 class="card-title">@article.ArticleName</h5>
+  <div class="col-sm-3">
+    <div class="card border-info mb-3">
+      <div class="card-body ">
+				<h5 class="card-title text-decoration-underline">@article.ArticleName</h5>
 				
-				<p class="card-text"><label class="text-dark-emphasis">Artikel-ID: &nbsp;</label>@article.Aid</p>
-			<p class="card-text"><label class="text-dark-emphasis">Artikelname: &nbsp;</label>@article.ArticleName</p>
+				
 			<p class="card-text"><label class="text-dark-emphasis">Preis: &nbsp;</label>@article.Price.ToString("c")</p>
 			<p class="card-text"><label class="text-dark-emphasis">Bemerkung: &nbsp;</label>@article.Description</p>
-			<p class="card-text"><label class="text-dark-emphasis">Artikelkategorie: &nbsp;</label>@article.Category.CatName</p>
+			<p class="card-text"><label class="text-dark-emphasis ">Artikelkategorie: &nbsp;</label>@article.Category.CatName</p>
 					<a asp-action="Details" asp-route-Aid="@article.Aid" class="btn btn-outline-secondary">Details</a>
 			</div>
 		</div>

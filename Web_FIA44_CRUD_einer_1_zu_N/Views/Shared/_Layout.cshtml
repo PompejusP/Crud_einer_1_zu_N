@@ -17,34 +17,34 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-secondary">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Artikelverwaltung</a>
+                <a class="navbar-brand text-info" asp-area="" asp-controller="Home" asp-action="Index">Artikelverwaltung</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" asp-controller="Home" asp-action="Index">Startseite</a>
+                            <a class="nav-link link-info active" aria-current="page" asp-controller="Home" asp-action="Index">Startseite</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link active" asp-controller="Admin" asp-action="AIndex">Adminbereich</a>
+                            <a class="nav-link link-info active" asp-controller="Admin" asp-action="AIndex">Adminbereich</a>
                             
                         </li>
                         <li class="nav-item">
-							<a class="nav-link active" asp-controller="Admin" asp-action="CIndex">Kategorieverwaltung</a>
+							<a class="nav-link link-info active" asp-controller="Admin" asp-action="CIndex">Kategorieverwaltung</a>
                         </li>
                     </ul>
 
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" name="searchString" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-info" type="submit">Search</button>
+                        <input class="form-control me-2" type="search" name="searchString" placeholder="Artikelsuche" aria-label="Search">
+                        <button class="btn btn-outline-info" type="submit">Suchen</button>
                     </form>
                 </div>
             </div>
         </nav>
     </header>
     <main role="main" class="container">
-        <div class="bg-body-tertiary p-5 rounded">
+        <div class="bg-body-secondary p-5 rounded">
             @RenderBody()
         </div>
     </main>
