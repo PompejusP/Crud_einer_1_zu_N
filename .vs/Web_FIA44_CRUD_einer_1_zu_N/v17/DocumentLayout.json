@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Programmieren\\Web_FIA44_CRUD_einer_1_zu_N\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{268D3F2B-22A0-48D8-BA94-81B428BC7A19}|Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N.csproj|d:\\programmieren\\web_fia44_crud_einer_1_zu_n\\web_fia44_crud_einer_1_zu_n\\dal\\sqldal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{268D3F2B-22A0-48D8-BA94-81B428BC7A19}|Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N.csproj|solutionrelative:web_fia44_crud_einer_1_zu_n\\dal\\sqldal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{268D3F2B-22A0-48D8-BA94-81B428BC7A19}|Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N.csproj|d:\\programmieren\\web_fia44_crud_einer_1_zu_n\\web_fia44_crud_einer_1_zu_n\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{268D3F2B-22A0-48D8-BA94-81B428BC7A19}|Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N.csproj|solutionrelative:web_fia44_crud_einer_1_zu_n\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{268D3F2B-22A0-48D8-BA94-81B428BC7A19}|Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N.csproj|d:\\programmieren\\web_fia44_crud_einer_1_zu_n\\web_fia44_crud_einer_1_zu_n\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{268D3F2B-22A0-48D8-BA94-81B428BC7A19}|Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N.csproj|solutionrelative:web_fia44_crud_einer_1_zu_n\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{268D3F2B-22A0-48D8-BA94-81B428BC7A19}|Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N.csproj|d:\\programmieren\\web_fia44_crud_einer_1_zu_n\\web_fia44_crud_einer_1_zu_n\\views\\admin\\aindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{268D3F2B-22A0-48D8-BA94-81B428BC7A19}|Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N.csproj|solutionrelative:web_fia44_crud_einer_1_zu_n\\views\\admin\\aindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{268D3F2B-22A0-48D8-BA94-81B428BC7A19}|Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N.csproj|d:\\programmieren\\web_fia44_crud_einer_1_zu_n\\web_fia44_crud_einer_1_zu_n\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{268D3F2B-22A0-48D8-BA94-81B428BC7A19}|Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N.csproj|solutionrelative:web_fia44_crud_einer_1_zu_n\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 178,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,79 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "D:\\Programmieren\\Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Web_FIA44_CRUD_einer_1_zu_N\\Controllers\\AdminController.cs",
-              "ToolTip": "D:\\Programmieren\\Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Web_FIA44_CRUD_einer_1_zu_N\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T14:16:02.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SqlDal.cs",
-              "DocumentMoniker": "D:\\Programmieren\\Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N\\DAL\\SqlDal.cs",
-              "RelativeDocumentMoniker": "Web_FIA44_CRUD_einer_1_zu_N\\DAL\\SqlDal.cs",
-              "ToolTip": "D:\\Programmieren\\Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N\\DAL\\SqlDal.cs",
-              "RelativeToolTip": "Web_FIA44_CRUD_einer_1_zu_N\\DAL\\SqlDal.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwA4BAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T13:51:43.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AIndex.cshtml",
-              "DocumentMoniker": "D:\\Programmieren\\Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N\\Views\\Admin\\AIndex.cshtml",
-              "RelativeDocumentMoniker": "Web_FIA44_CRUD_einer_1_zu_N\\Views\\Admin\\AIndex.cshtml",
-              "ToolTip": "D:\\Programmieren\\Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N\\Views\\Admin\\AIndex.cshtml",
-              "RelativeToolTip": "Web_FIA44_CRUD_einer_1_zu_N\\Views\\Admin\\AIndex.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-28T13:08:08.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Programmieren\\Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Web_FIA44_CRUD_einer_1_zu_N\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Programmieren\\Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Web_FIA44_CRUD_einer_1_zu_N\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC4AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-28T12:59:34.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Programmieren\\Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Web_FIA44_CRUD_einer_1_zu_N\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Programmieren\\Web_FIA44_CRUD_einer_1_zu_N\\Web_FIA44_CRUD_einer_1_zu_N\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Web_FIA44_CRUD_einer_1_zu_N\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-28T12:42:00.716Z",
-              "EditorCaption": ""
             }
           ]
         }

@@ -1,0 +1,30 @@
+﻿
+
+Erstellen der Tabellen Article und Category in der Datenbank!
+Bitte zuerste die Datenbank erstellen und dann die Tabellen erstellen!
+Mit Category muss zuerst erstellt werden, da die Tabelle Article auf die Tabelle Category verweist!
+Ansonsten gibt es einen Fehler!
+Anschliessend die Daten in die Tabelle Category einfügen und dann in die Tabelle Article! aus den Text Dateien!
+Die Datenbank muss dann in der Appsettings.json Datei angegeben werden! ansonsten findet die Anwendung die Datenbank nicht!
+Beispiel: "AllowedHosts": "*",
+    "ConnectionStrings": {
+        "SqlServer": "Data Source=(LocalDb)\\MSSQLLocalDB;Initial Catalog=DB_Eins_zu_N;Integrated Security=True;Pooling=False;Encrypt=False;Trust Server Certificate=False"
+    }!!!!!!
+
+CREATE TABLE [dbo].[Category] (
+    [Cid]     INT           IDENTITY (1, 1) NOT NULL,
+    [CatName] NVARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Cid] ASC)
+);
+
+CREATE TABLE [dbo].[Article] (
+    [AId]         INT            IDENTITY (1, 1) NOT NULL,
+    [CatId]       INT            NOT NULL,
+    [Articlename] NVARCHAR (50)  NOT NULL,
+    [Price]       SMALLMONEY     NOT NULL,
+    [Description] NVARCHAR (400) NULL,
+    PRIMARY KEY CLUSTERED ([AId] ASC),
+    CONSTRAINT [FK_Article_ToTable] FOREIGN KEY ([CatId]) REFERENCES [dbo].[Category] ([Cid])
+);
+
+

@@ -1,0 +1,9 @@
+﻿SET IDENTITY_INSERT [dbo].[Category] ON
+INSERT INTO [dbo].[Category] ([Cid], [CatName]) VALUES (1, N'Werkzeug')
+INSERT INTO [dbo].[Category] ([Cid], [CatName]) VALUES (2, N'Sanitär')
+INSERT INTO [dbo].[Category] ([Cid], [CatName]) VALUES (3, N'Spielzeug')
+INSERT INTO [dbo].[Category] ([Cid], [CatName]) VALUES (4, N'Garten')
+INSERT INTO [dbo].[Category] ([Cid], [CatName]) VALUES (5, N'Holz')
+INSERT INTO [dbo].[Category] ([Cid], [CatName]) VALUES (6, N'Haushalt')
+INSERT INTO [dbo].[Category] ([Cid], [CatName]) VALUES (8, N'Baustoffe')
+SET IDENTITY_INSERT [dbo].[Category] OFF
